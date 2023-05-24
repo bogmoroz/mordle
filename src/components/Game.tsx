@@ -9,7 +9,9 @@ const Wrapper = styled.div`
 `;
 
 const Game = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [word, setWord] = useState("NOODLE");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [allowedAttempts, setAllowedAttempts] = useState(7);
   const [currentAttempt, setCurrentAttempt] = useState(0);
 

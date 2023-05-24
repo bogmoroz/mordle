@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 type LetterProps = {
   inputLetter: string;
@@ -11,18 +11,6 @@ const Letter = ({
   answerLetter,
   submitted,
 }: LetterProps) => {
-  //   const bounceAnimation = keyframes`
-  //     0% {
-  //       transform: translateY(0);
-  //     }
-  //     50% {
-  //       transform: translateY(-5px);
-  //     }
-  //     100% {
-  //       transform: translateY(0);
-  //     }
-  //   `;
-
   const Container = styled.div<{ correct: boolean }>`
     display: flex;
     justify-content: center;
